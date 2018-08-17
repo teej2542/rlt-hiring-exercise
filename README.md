@@ -5,7 +5,7 @@ The server and MySQL databased is created via Terraform.
 
 In the Terraform file (test.tf) there is a credential section where you will put your access and secrete keys. Then there are 3 resources that will be created. 
 
-**NOTE:** Before starting make sure you have the AWS IAM access and secrete keys with the appropriate permissions. Also set the default region.
+**NOTE:** Before starting make sure you have the AWS IAM access and secrete keys with the appropriate permissions. Also set the default region. Install Terraform (https://www.terraform.io/downloads.html)
 
 **Resources**
 
@@ -16,6 +16,8 @@ In the Terraform file (test.tf) there is a credential section where you will put
 **DB Instance (RDS):** A instance for the MySQL database.
 
 **Instructions** (From the root directory):
+
+**Run the following to initialize Terraform and download any need components:** <code>terraform init</code>
 
 **Run following to view the resources that will be created:** <code>terraform plan</code> <br/>
 
